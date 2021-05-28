@@ -4,6 +4,9 @@ namespace Raindrops
 {
     public static class Raindrops
     {
+        /// <summary> Gets any number and converts it in to raindrops.</summary>
+        /// <param name="n"></param>
+        /// <returns>A string containing generated raindrops.</returns>
         public static string GetRaindrops(int n)
         {
             var result = "";
